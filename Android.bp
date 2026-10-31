@@ -80,6 +80,7 @@ cc_prebuilt_library_shared {
     },
     compile_multilib: "32",
     relative_install_path: "hw",
+    check_elf_files: false,
     prefer: true,
     soc_specific: true,
 }
